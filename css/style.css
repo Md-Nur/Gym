@@ -1,0 +1,136 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('pic/bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Texturina', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.Left {
+    display: inline-block;
+    /* border: 3px solid rgb(0, 134, 11); */
+    position: absolute;
+    left: 5vw;
+    top: 25px;
+}
+
+.Left img {
+    width: 93px;
+    transform: rotate(45deg);
+    filter: invert(100%);
+    margin: -20px auto;
+}
+
+.Mid {
+    display: block;
+    width: 42vw;
+    margin: 25px auto;
+    /* border: 3px solid rgb(195, 0, 255); */
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    margin: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+
+    border-radius: 2px;
+    color: grey;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.Right {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    /* border: 3px solid rgb(0, 134, 11); */
+    padding: 10px;
+}
+
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgb(255, 255, 255);
+    border: white solid 1px;
+}
+
+.btn:hover {
+    background-color: rgb(189, 170, 170);
+}
+
+.container {
+    border: rgb(251, 251, 251) solid 2px;
+    margin: 75px 67px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 40vw;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 75px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input {
+    font-size: 20px;
+    padding: 5px;
+    /* border: white solid 3px; */
+    margin: 10px auto;
+    width: 500px;
+}
+
+.input input {
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.input label {
+    display: inline-block;
+    width: 75px;
+}
+
+.input input:focus {
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(66, 66, 66, 0.753);
+    padding: 5px;
+    width: 400px;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    width: 163px;
+}
